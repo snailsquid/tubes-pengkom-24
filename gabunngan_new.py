@@ -432,6 +432,7 @@ while(produk_pilih == -1):
                     break
         clear()
         printTopupMachine()
+        time.sleep(1)
         print("{:^35}".format("Pilih metode pembayaran"))
         metode_pembayaran = int(input("{:^45}\n\n> ".format(colorList[1]+"QRIS (1) / Cash (2) / E-Money (3)"+colorList[0])))
         if metode_pembayaran == 1:
